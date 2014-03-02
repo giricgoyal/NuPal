@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6757BA1818C3A9F000620B87 /* appicon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6757BA1718C3A9F000620B87 /* appicon-60@2x.png */; };
+		6757BA2418C3B7F400620B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757BA2318C3B7F400620B87 /* Main.storyboard */; };
+		6757BA2518C3B7F400620B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757BA2318C3B7F400620B87 /* Main.storyboard */; };
 		67FAFA6918C2825F00CE6481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFA6818C2825F00CE6481 /* Foundation.framework */; };
 		67FAFA6B18C2825F00CE6481 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFA6A18C2825F00CE6481 /* CoreGraphics.framework */; };
 		67FAFA6D18C2825F00CE6481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFA6C18C2825F00CE6481 /* UIKit.framework */; };
@@ -36,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		6757BA1718C3A9F000620B87 /* appicon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appicon-60@2x.png"; path = "NuPal/Images/appicon-60@2x.png"; sourceTree = "<group>"; };
+		6757BA2318C3B7F400620B87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		67FAFA6518C2825F00CE6481 /* NuPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FAFA6818C2825F00CE6481 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67FAFA6A18C2825F00CE6481 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,7 @@
 			children = (
 				67FAFA7718C2825F00CE6481 /* AppDelegate.h */,
 				67FAFA7818C2825F00CE6481 /* AppDelegate.m */,
+				6757BA2318C3B7F400620B87 /* Main.storyboard */,
 				67FAFA7A18C2825F00CE6481 /* Images.xcassets */,
 				67FAFA6F18C2825F00CE6481 /* Supporting Files */,
 			);
@@ -227,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67FAFA7318C2825F00CE6481 /* InfoPlist.strings in Resources */,
+				6757BA2418C3B7F400620B87 /* Main.storyboard in Resources */,
 				67FAFA7B18C2825F00CE6481 /* Images.xcassets in Resources */,
 				67FAFAA318C293C600CE6481 /* Default-568h@2x.png in Resources */,
 				6757BA1818C3A9F000620B87 /* appicon-60@2x.png in Resources */,
@@ -237,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6757BA2518C3B7F400620B87 /* Main.storyboard in Resources */,
 				67FAFA8C18C2825F00CE6481 /* InfoPlist.strings in Resources */,
 				67FAFAA418C293C600CE6481 /* Default-568h@2x.png in Resources */,
 			);
