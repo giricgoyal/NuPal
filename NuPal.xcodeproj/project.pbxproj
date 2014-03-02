@@ -202,6 +202,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = NuPal;
 				TargetAttributes = {
+					67FAFA6418C2825F00CE6481 = {
+						DevelopmentTeam = M36836RFMA;
+					};
 					67FAFA7F18C2825F00CE6481 = {
 						TestTargetID = 67FAFA6418C2825F00CE6481;
 					};
@@ -373,11 +376,14 @@
 		67FAFA9218C2825F00CE6481 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NuPal/NuPal-Prefix.pch";
 				INFOPLIST_FILE = "NuPal/NuPal-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,11 +392,14 @@
 		67FAFA9318C2825F00CE6481 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NuPal/NuPal-Prefix.pch";
 				INFOPLIST_FILE = "NuPal/NuPal-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
