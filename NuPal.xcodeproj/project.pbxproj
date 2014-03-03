@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6757BA1818C3A9F000620B87 /* appicon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6757BA1718C3A9F000620B87 /* appicon-60@2x.png */; };
 		6757BA2418C3B7F400620B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757BA2318C3B7F400620B87 /* Main.storyboard */; };
 		6757BA2518C3B7F400620B87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757BA2318C3B7F400620B87 /* Main.storyboard */; };
+		67BBE1FA18C4079800DF9D82 /* appicon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBE1F418C4079700DF9D82 /* appicon-60@2x.png */; };
+		67BBE1FB18C4079800DF9D82 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBE1F518C4079700DF9D82 /* Default-568h@2x.png */; };
+		67BBE1FC18C4079800DF9D82 /* Default-568h@2x_old.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBE1F618C4079700DF9D82 /* Default-568h@2x_old.png */; };
+		67BBE1FD18C4079800DF9D82 /* Default@2x_old.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBE1F718C4079700DF9D82 /* Default@2x_old.png */; };
+		67BBE1FF18C4079800DF9D82 /* redTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67BBE1F918C4079800DF9D82 /* redTexture.jpg */; };
+		67BBE20118C4088000DF9D82 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 67BBE20018C4088000DF9D82 /* Logo.png */; };
 		67FAFA6918C2825F00CE6481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFA6818C2825F00CE6481 /* Foundation.framework */; };
 		67FAFA6B18C2825F00CE6481 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFA6A18C2825F00CE6481 /* CoreGraphics.framework */; };
 		67FAFA6D18C2825F00CE6481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFA6C18C2825F00CE6481 /* UIKit.framework */; };
@@ -22,8 +27,6 @@
 		67FAFA8418C2825F00CE6481 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67FAFA6C18C2825F00CE6481 /* UIKit.framework */; };
 		67FAFA8C18C2825F00CE6481 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67FAFA8A18C2825F00CE6481 /* InfoPlist.strings */; };
 		67FAFA8E18C2825F00CE6481 /* NuPalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FAFA8D18C2825F00CE6481 /* NuPalTests.m */; };
-		67FAFAA318C293C600CE6481 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67FAFAA218C293C600CE6481 /* Default-568h@2x.png */; };
-		67FAFAA418C293C600CE6481 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67FAFAA218C293C600CE6481 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6757BA1718C3A9F000620B87 /* appicon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appicon-60@2x.png"; path = "NuPal/Images/appicon-60@2x.png"; sourceTree = "<group>"; };
 		6757BA2318C3B7F400620B87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		67BBE1F418C4079700DF9D82 /* appicon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon-60@2x.png"; sourceTree = "<group>"; };
+		67BBE1F518C4079700DF9D82 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		67BBE1F618C4079700DF9D82 /* Default-568h@2x_old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x_old.png"; sourceTree = "<group>"; };
+		67BBE1F718C4079700DF9D82 /* Default@2x_old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x_old.png"; sourceTree = "<group>"; };
+		67BBE1F918C4079800DF9D82 /* redTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redTexture.jpg; sourceTree = "<group>"; };
+		67BBE20018C4088000DF9D82 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		67FAFA6518C2825F00CE6481 /* NuPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FAFA6818C2825F00CE6481 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67FAFA6A18C2825F00CE6481 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,7 +63,6 @@
 		67FAFA8918C2825F00CE6481 /* NuPalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NuPalTests-Info.plist"; sourceTree = "<group>"; };
 		67FAFA8B18C2825F00CE6481 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67FAFA8D18C2825F00CE6481 /* NuPalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NuPalTests.m; sourceTree = "<group>"; };
-		67FAFAA218C293C600CE6481 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "NuPal/Images/Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67BBE1F318C4079700DF9D82 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				67BBE20018C4088000DF9D82 /* Logo.png */,
+				67BBE1F418C4079700DF9D82 /* appicon-60@2x.png */,
+				67BBE1F518C4079700DF9D82 /* Default-568h@2x.png */,
+				67BBE1F618C4079700DF9D82 /* Default-568h@2x_old.png */,
+				67BBE1F718C4079700DF9D82 /* Default@2x_old.png */,
+				67BBE1F918C4079800DF9D82 /* redTexture.jpg */,
+			);
+			name = Images;
+			path = NuPal/Images;
+			sourceTree = "<group>";
+		};
 		67FAFA5C18C2825F00CE6481 = {
 			isa = PBXGroup;
 			children = (
-				6757BA1718C3A9F000620B87 /* appicon-60@2x.png */,
-				67FAFAA218C293C600CE6481 /* Default-568h@2x.png */,
+				67BBE1F318C4079700DF9D82 /* Images */,
 				67FAFA6E18C2825F00CE6481 /* NuPal */,
 				67FAFA8718C2825F00CE6481 /* NuPalTests */,
 				67FAFA6718C2825F00CE6481 /* Frameworks */,
@@ -233,11 +253,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BBE20118C4088000DF9D82 /* Logo.png in Resources */,
 				67FAFA7318C2825F00CE6481 /* InfoPlist.strings in Resources */,
+				67BBE1FC18C4079800DF9D82 /* Default-568h@2x_old.png in Resources */,
 				6757BA2418C3B7F400620B87 /* Main.storyboard in Resources */,
+				67BBE1FA18C4079800DF9D82 /* appicon-60@2x.png in Resources */,
+				67BBE1FF18C4079800DF9D82 /* redTexture.jpg in Resources */,
+				67BBE1FD18C4079800DF9D82 /* Default@2x_old.png in Resources */,
 				67FAFA7B18C2825F00CE6481 /* Images.xcassets in Resources */,
-				67FAFAA318C293C600CE6481 /* Default-568h@2x.png in Resources */,
-				6757BA1818C3A9F000620B87 /* appicon-60@2x.png in Resources */,
+				67BBE1FB18C4079800DF9D82 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +271,6 @@
 			files = (
 				6757BA2518C3B7F400620B87 /* Main.storyboard in Resources */,
 				67FAFA8C18C2825F00CE6481 /* InfoPlist.strings in Resources */,
-				67FAFAA418C293C600CE6481 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
